@@ -1,0 +1,80 @@
+.headul{
+    display: inline;
+    float: right;
+    margin-right:100px;
+    margin-top: 40px;
+    
+}
+.headul >li{
+    display: inline;
+}
+#red{
+    color:red;
+}
+
+.box{
+    width:400px;
+    height:300px;
+    background-color: cadetblue;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+}
+.content {
+    
+    padding: 20px;
+}
+
+.text > a{
+    color: black;
+    display: inline;
+        
+} 
+.line {
+    margin-left: 50px;
+    width: 5px;
+    height: 20px;
+    background-color: black;
+    display: inline-block;
+}
+.signup {
+   padding: 50px;
+}
+
+input[type=text] {
+    margin-left: 45px;
+    width: 80%;
+    background-color: white;
+}
+
+input[type=password] {
+        margin-left: 45px;
+    width: 80%;
+    background-color: white;
+}
+input[type=submit] {
+    
+margin-left:  150px;
+margin-top: 5px;
+width: 60px;
+height: 30px;
+font-size: 15px;
+background: green;
+
+}
+
+label[for="username"] {
+    padding-left: 150px;
+}
+
+label[for="password"] {
+    padding-left: 150px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
